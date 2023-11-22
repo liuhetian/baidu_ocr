@@ -26,8 +26,8 @@ def retry(max_attempts, delay):
     return decorator
 
 
-API_KEY = st.secrets.API_KEY  # "QpnUtzozCU4CXP0h0GiMliMf"
-SECRET_KEY = st.secrets.SECRET_KEY  #"9eruWB2vvjA6C7RBGdOIdZwtXz7ZKpqX"
+API_KEY = st.secrets.API_KEY  
+SECRET_KEY = st.secrets.SECRET_KEY  
 
 @retry(10, 1)
 def main(image):
