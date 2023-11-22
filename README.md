@@ -1,6 +1,11 @@
 # baidu_ocr
 用百度ocr来识别数字
 
+
+![](README/a.jpg)
+
+![](README/b.jpg)
+
 ## 笔记
 
 [管理secrets](https://docs.streamlit.io/library/advanced-features/secrets-management)
